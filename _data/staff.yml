@@ -1,4 +1,4 @@
-administrators:
+Owners:
   color: "#fa0"
   members:
     - username: KaritasOff
@@ -7,20 +7,23 @@ administrators:
       links:
         email: iammehdib@protonmail.com
         github: iammehdib
+Administrateurs:
+  color: "#fa0"
+  members:
     - username: JLP4ndA
       id: 7689e378-f9a5-4938-a287-6f3872e7c426
       role: Administrateur & CM
-head of events:
+Organisateur D'évènement:
   color: "#fc0"
   members:
     - username: snouzee
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
-media:
+Responsable Réseaux Sociaux:
   color: "#3c3"
   members:
     - username: ElBenjito_
       id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
-moderators:
+Modérateur:
   color: "#f55"
   members:
     - username: alexis26044
@@ -29,12 +32,13 @@ moderators:
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
     - username: DxrkSky
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
-junior moderators:
-  color: "#f5f"
-  members: []
-builders:
+Assistant:
+  color: "#f55"
+  members:
+    - username: 10017
+      id: 959e06bd-b70a-42cd-898d-aa784a1881fa
+Buildeurs:
   color: "#6FF"
   members:
     - username: JLP4ndA
       id: 7689e378-f9a5-4938-a287-6f3872e7c426
-
