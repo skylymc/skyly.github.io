@@ -1,10 +1,4 @@
 sites:
-  - name: PlanetMinecraft
-    link: "https://www.planetminecraft.com/server/overcast-community/vote/"
-    image: "site-1.png"
-  - name: "MinecraftServers.org"
-    link: "https://minecraftservers.org/vote/636786"
+  - name: "NameMc"
+    link: "https://fr.namemc.com/server/skyly.fr?q=skyly.fr"
     image: "site-2.png"
-  - name: "Top Minecraft Servers"
-    link: "https://topminecraftservers.org/vote/29505"
-    image: "site-3.png"
