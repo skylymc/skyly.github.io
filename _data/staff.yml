@@ -17,24 +17,24 @@ Organisateur D'évènement:
   color: "#fc0"
   members:
     - username: snouzee
-      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+      id: fa2b30f1-a29b-4024-a390-5e756b7f5c3d
 Responsable Réseaux Sociaux:
   color: "#3c3"
   members:
     - username: ElBenjito_
-      id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
+      id: d7973fb7-2423-4e74-ae3e-c3850caab040
       role: Chacal
 Modérateur:
   color: "#f55"
   members:
-    - username: alexis26044
-      id: 3159ff86-76e2-453c-9ade-5e2ba9918396
+    - username: alexis2604
+      id: d23bd6cc-d6c8-42fd-9345-ca2bdae91e93
       role: Le meilleur Modo
     - username: __TETEY__
-      id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
+      id: a448e278-21f5-4a9a-9fe8-e671903a9189
       role: Un bon soldat
     - username: DxrkSky
-      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
+      id: 4580b4b0-2206-423d-ae5b-c3de9ddcf88e
 Assistant:
   color: "#f55"
   members:
@@ -50,4 +50,4 @@ Buildeurs:
     - username: JLP4ndA
       id: 7689e378-f9a5-4938-a287-6f3872e7c426
     - username: DxrkSky
-      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
+      id: 4580b4b0-2206-423d-ae5b-c3de9ddcf88e
