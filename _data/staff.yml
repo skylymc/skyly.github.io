@@ -23,13 +23,16 @@ Responsable Réseaux Sociaux:
   members:
     - username: ElBenjito_
       id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
+      role: Chacal
 Modérateur:
   color: "#f55"
   members:
     - username: alexis26044
       id: 3159ff86-76e2-453c-9ade-5e2ba9918396
+      role: Le meilleur Modo
     - username: __TETEY__
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
+      role: Un bon soldat
     - username: DxrkSky
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
 Assistant:
@@ -37,8 +40,14 @@ Assistant:
   members:
     - username: 10017
       id: 959e06bd-b70a-42cd-898d-aa784a1881fa
+      role: Helpeur & dev de temps à autre
+    - username: NHGang
+      id: dbddef05-1fec-4060-a9fc-830724b9333e
+      role: -18
 Buildeurs:
   color: "#6FF"
   members:
     - username: JLP4ndA
       id: 7689e378-f9a5-4938-a287-6f3872e7c426
+    - username: DxrkSky
+      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
