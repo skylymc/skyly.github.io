@@ -19,9 +19,6 @@ Administrateurs:
 Responsables:
   color: "#3c3"
   members:
-    - username: 
-      id: 
-      role: 
 Modérateurs:
   color: "#f55"
   members:
