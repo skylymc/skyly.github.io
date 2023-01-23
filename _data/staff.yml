@@ -15,10 +15,7 @@ Administrateurs:
       role: Administrateur & CM
     - username: ElBenjito_
       id: d7973fb7-2423-4e74-ae3e-c3850caab040
-      role: Chacal    
-Responsables:
-  color: "#3c3"
-  members:
+      role: Chacal
 Modérateurs:
   color: "#f55"
   members:
