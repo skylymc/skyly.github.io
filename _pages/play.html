@@ -8,25 +8,23 @@ icon: "fas fa-play"
 
 {% include image-header.html image='/assets/img/image-slider/3.jpg' %}
 
-<div class="card-body text-center">
-          <h4 class="card-title">Se connecter</h4>
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card connect">
+        <div class="card-body">
+          <h4 class="card-title text-center">Se connecter</h4>
           <hr>
           <div class="row">
             <div class="col-md-6">
-              <input class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" title="" onclick="this.select();" readonly="" type="text" value="skyly.fr" data-original-title="Clic pour copier l'adresse IP.">
-            </div>
-            <div class="col-md-6 mt-2 mt-md-0">
-              <div>
-                <b>Joueurs:</b>
-                <span id="data-player-count">1<small class="text-muted">/2</small></span>
-              </div>
-              <div>
-                <b>Version:</b>
-                <span class="version-support" id="data-version-support">1.7.2 - 1.19.2</span>
-              </div>
-            </div>
-          </div>
-          </div>
+              <input class="btn btn-primary btn-lg"
+                     data-toggle="tooltip"
+                     data-placement="top"
+                     title="Clic pour copier l'adresse IP."
+                     onclick="this.select();"
+                     readonly=""
+                     type="text"
+                     value="{{ site.server_address }}">
             </div>
             <div class="col-md-6 mt-2 mt-md-0">
               <div>
