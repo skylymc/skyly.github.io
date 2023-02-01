@@ -10,6 +10,8 @@
 
   .navbar {
     background: #111 !important;
+    display: flex;
+    align-items: center;
 
     .navbar-brand {
       color: #ccc !important;
