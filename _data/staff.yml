@@ -1,4 +1,4 @@
-Owners:
+Owner:
   color: "#fa0"
   members:
     - username: KaritasOff
@@ -7,44 +7,37 @@ Owners:
       links:
         email: iammehdib@protonmail.com
         github: iammehdib
-Administrateurs:
-  color: "#fa0"
-  members:
-    - username: JLP4ndA
-      id: 7689e378-f9a5-4938-a287-6f3872e7c426
-      role: Administrateur & CM
-    - username: ElBenjito_
-      id: d7973fb7-2423-4e74-ae3e-c3850caab040
-      role: Chacal
-Modérateurs:
+Super-Modérateurs:
   color: "#f55"
   members:
     - username: alexis2604
       id: d23bd6cc-d6c8-42fd-9345-ca2bdae91e93
-      role: Le meilleur Modo
-    - username: __TETEY__
-      id: a448e278-21f5-4a9a-9fe8-e671903a9189
-      role: Un bon soldat
+      role: Le meilleur SuperModo
     - username: DxrkSky
       id: 4580b4b0-2206-423d-ae5b-c3de9ddcf88e
+    - username: __TETEY__
+      id: a448e278-21f5-4a9a-9fe8-e671903a9189
+      role: Soldat de la patrie
+Modérateurs:
+  color: "#f55"
+  members:
+    - username: Fluxy
+      id: 8575e7fb-2e37-470c-baa1-1efbf49f70a0
+      role: L''ancien
 Helpeurs:
   color: "#f55"
   members:
-    - username: 10017
-      id: 959e06bd-b70a-42cd-898d-aa784a1881fa
-      role: Helpeur & dev de temps à autre
-    - username: NHGang
-      id: dbddef05-1fec-4060-a9fc-830724b9333e
+    - username: BENJI608
+      id: c94c9ad8-06f5-4713-b9af-08f86f14f8e2
       role: -18
-Organisateur D'évènement:
-  color: "#fc0"
-  members:
-    - username: snouzee
-      id: fa2b30f1-a29b-4024-a390-5e756b7f5c3d
 Buildeurs:
   color: "#6FF"
   members:
-    - username: JLP4ndA
-      id: 7689e378-f9a5-4938-a287-6f3872e7c426
+    - username: alexis2604
+      id: d23bd6cc-d6c8-42fd-9345-ca2bdae91e93
+  members:
+    - username: Expaaz
+      id: e0912bf6-5e12-4169-8438-140a73d02ccb
+  members:
     - username: DxrkSky
       id: 4580b4b0-2206-423d-ae5b-c3de9ddcf88e
