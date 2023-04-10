@@ -8,69 +8,60 @@ icon: "fas fa-play"
 
 {% include image-header.html image='/assets/img/image-slider/3.jpg' %}
 
-<div class="container my-4">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card connect">
-        <div class="card-body">
-          <h4 class="card-title text-center">Se connecter</h4>
-          <hr>
-          <div class="row text-center">
-            <div class="col-md-6">
-              <input class="btn btn-primary btn-lg"
-                     data-toggle="tooltip"
-                     data-placement="top"
-                     title="Clic pour copier l'adresse IP."
-                     onclick="this.select();"
-                     readonly=""
-                     type="text"
-                     value="{{ site.server_address }}">
-            </div>
-            <div class="col-md-6 mt-2 mt-md-0">
-              <div>
-                <b>Joueurs:</b>
-                <span id="data-player-count">?</span>
-              </div>
-              <div>
-                <b>Version:</b>
-                <span class="version-support" id="data-version-support">?</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col mt-4 mt-md-0">
-      <div class="row">
-        <div class="col-sm-12 col-md-5 map-image">
-          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
-        </div>
-        <div class="col-sm-12 col-md-7 mt-2 mt-md-0">
-          <h2>
-            <small id="data-match-state" class="match-state" data-toggle="tooltip" data-placement="top"></small>
-            <span id="data-current-map-name"></span>
-          </h2>
-          <span id="data-current-map-tags"></span>
-          <div class="online-players">
-            <span id="data-online-player-sample"></span>
-            <div>
-              <span id="data-more-player-count"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jouer</title>
+    <style>
+      #btn-copier {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 50px;
+        font-size: 1.2em;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #btn-copier:hover {
+        background-color: #0069d9;
+      }
+      #nombre-joueurs {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn-copier" onclick="copierIP()">Copier l'IP</button>
+    <div id="nombre-joueurs"></div>
 
-<script src="{{ site.url }}/assets/js/play-fallback.js"></script>
-<script type="text/javascript">
-  const input = {
-    serverAddress: '{{ site.server_address }}',
-    apiUrl: '{{ site.data.providers.status_api }}',
-    mapImagesUrl: '{{ site.data.providers.map_images }}',
-    playerAvatarsUrl: '{{ site.data.providers.player_avatars }}'
-  };
+    <script>
+      function copierIP() {
+        const ip = 'play.skyly.fr';
+        navigator.clipboard.writeText(ip);
+      }
 
-  setInterval(getServerStatus(input), 60 * 1000);
-</script>
+      function afficherNombreJoueurs(nombre) {
+        const nombreJoueurs = document.getElementById('nombre-joueurs');
+        nombreJoueurs.textContent = `Joueurs connectés : ${nombre}`;
+      }
+
+      fetch('https://api.mcsrvstat.us/2/play.skyly.fr')
+        .then(response => response.json())
+        .then(data => {
+          const nombreJoueurs = data.players.online;
+          afficherNombreJoueurs(nombreJoueurs);
+        })
+        .catch(error => {
+          console.error('Une erreur est survenue : ', error);
+          afficherNombreJoueurs('?');
+        });
+    </script>
+  </body>
+</html>
+
