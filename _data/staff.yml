@@ -15,6 +15,12 @@ Responsables:
     - username: __TETEY__
       id: a448e278-21f5-4a9a-9fe8-e671903a9189
       role: Soldat de la patrie
+    - username: NHgang
+      id: dbddef05-1fec-4060-a9fc-830724b9333e
+    - username: ElBenjito_
+      id: d7973fb7-2423-4e74-ae3e-c3850caab040
+      role: Le reuf
+    
 Super-Modérateurs:
   color: "#f55"
   members:
