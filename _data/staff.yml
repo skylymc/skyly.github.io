@@ -32,11 +32,6 @@ Modérateurs:
       id: 3e505f0a-0f15-463e-a166-355b6ad2e4b9
     - username: Raph_B8
       id: 7af9aa54-0c39-4705-863d-26e1a7c957a3
-Helpeurs:
-  color: "#f55"
-  members:
-    - username: Coty_TTB
-      id: cf5592f8-cf98-4197-8be7-12078fca0b75
 Buildeurs:
   color: "#6FF"
   members:
