@@ -10,34 +10,27 @@ Owner:
 Responsables:
   color: "#fa0"
   members:
+    - username: Aixandre
+      id: 30709271-1ee5-46ad-82b2-0949c9b53d31
     - username: SushiAuSaumon
       id: 1571ac1d-8c2a-4034-91d2-42a38265620d
-    - username: NHgang
-      id: dbddef05-1fec-4060-a9fc-830724b9333e
-    - username: Coty_TTB
-      id: cf5592f8-cf98-4197-8be7-12078fca0b75
-
-Super-Modérateur:
-  color: "#f55"
-  members:
     - username: alexis2604
       id: d23bd6cc-d6c8-42fd-9345-ca2bdae91e93
       role: Le meilleur SuperModo
-Modérateurs:
+Super-Modérateur:
   color: "#f55"
   members:
     - username: M0uttic
       id: 8fe68d64-568a-4a96-b516-414a68552a29
+Modérateurs:
+  color: "#f55"
+  members:
     - username: ZayKox_
       id: 3e505f0a-0f15-463e-a166-355b6ad2e4b9
-    - username: Raph_B8
-      id: 7af9aa54-0c39-4705-863d-26e1a7c957a3
-Buildeurs:
+Assistant:
   color: "#6FF"
   members:
-    - username: Inconnu_99
-      id: 7b571134-ca51-4301-85c2-db60dcfcb65e
-    - username: chenipan
-      id: 7b571134-ca51-4301-85c2-db60dcfcb65e
-    - username: Siph0x_
-      id: 83702a5d-7a5d-412b-90f1-e997580ab444
+    - username: okPapers
+      id: 55256f53-5957-439c-9623-6db581d895f6
+    - username: K1NGV2
+      id: 1a6c0fc8-42f3-400e-bb85-31d429d2b8bd
