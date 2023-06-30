@@ -16,7 +16,6 @@ Responsables:
       id: 1571ac1d-8c2a-4034-91d2-42a38265620d
     - username: alexis2604
       id: d23bd6cc-d6c8-42fd-9345-ca2bdae91e93
-      role: Le meilleur SuperModo
 Super-Modérateur:
   color: "#f55"
   members:
@@ -32,5 +31,3 @@ Assistant:
   members:
     - username: okPapers
       id: 55256f53-5957-439c-9623-6db581d895f6
-    - username: K1NGV2
-      id: 1a6c0fc8-42f3-400e-bb85-31d429d2b8bd
